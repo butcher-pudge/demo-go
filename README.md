@@ -58,21 +58,17 @@ Creates new bookmark
 } 
 ```
 
-### GET /api/bookmarks
+### GET /api/bookmarks/{id}
 
-Returns all user bookmarks
+Returns user bookmark by id
 
 ##### Example Response:
 ```
 {
-	"bookmarks": [
-            {
-                "id": "5da2d8aae9g637v5ddfae750",
-                "url": "https://github.com/xxxx",
-                "title": "Go Learning Demo"
-            }
-    ]
-} 
+    "id": "5da2d8aae9g637v5ddfae750",
+    "url": "https://github.com/xxxx",
+    "title": "Go Learning Demo"
+}
 ```
 
 ## Requirements
