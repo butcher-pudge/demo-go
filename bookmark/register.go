@@ -7,7 +7,7 @@ import (
 
 func RegisterHttpEndpoints(router *gin.RouterGroup, controller *controller.BookmarkController) {
 
-	authEndpoints := router.Group("/bookmark")
+	authEndpoints := router.Group("/bookmarks")
 	{
 		authEndpoints.POST("", controller.CreateBookmark)
 		authEndpoints.GET("/:id", controller.GetBookmarkById)
