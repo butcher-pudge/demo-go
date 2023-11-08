@@ -22,7 +22,7 @@ Creates new user
 ```
 {
 	"username": "UncleBob",
-	"password": "cleanArch"
+	"password": "123456"
 } 
 ```
 
@@ -35,14 +35,14 @@ Request to get JWT Token based on user credentials
 ```
 {
 	"username": "UncleBob",
-	"password": "cleanArch"
+	"password": "123456"
 } 
 ```
 
 ##### Example Response:
 ```
 {
-	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzEwMzgyMjQuNzQ0MzI0MiwidXNlciI6eyJJRCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsIlVzZXJuYW1lIjoiemhhc2hrZXZ5Y2giLCJQYXNzd29yZCI6IjQyODYwMTc5ZmFiMTQ2YzZiZDAyNjlkMDViZTM0ZWNmYmY5Zjk3YjUifX0.3dsyKJQ-HZJxdvBMui0Mzgw6yb6If9aB8imGhxMOjsk"
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTg0ODExOTAuMzI5NjY0LCJ1c2VyIjp7IklEIjoiNjUzYTE3MTEzYjcyMTBhZjk4NTlmNzVlIiwiVXNlck5hbWUiOiJ5eSIsIlBhc3N3b3JkIjoiZWI4ZDU2ZjFhMzExMzQ0NmM4OTI2OGY5OTRkNWYwYmY2YzQxMThlYSJ9fQ._Sn5Z16G66-c8WTYLmjpWOQlnouzncERzUqhB8nEcDk"
 } 
 ```
 
@@ -53,8 +53,8 @@ Creates new bookmark
 ##### Example Input:
 ```
 {
-	"url": "https://github.com/zhashkevych/go-clean-architecture",
-	"title": "Go Clean Architecture example"
+	"url": "https://github.com/xxxx",
+	"title": "Go Learning Demo"
 } 
 ```
 
@@ -67,9 +67,9 @@ Returns all user bookmarks
 {
 	"bookmarks": [
             {
-                "id": "5da2d8aae9b63715ddfae856",
-                "url": "https://github.com/zhashkevych/go-clean-architecture",
-                "title": "Go Clean Architecture example"
+                "id": "5da2d8aae9g637v5ddfae750",
+                "url": "https://github.com/xxxx",
+                "title": "Go Learning Demo"
             }
     ]
 } 
